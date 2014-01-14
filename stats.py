@@ -7,11 +7,7 @@ def mean(vals):
         raise TypeError("The list was not numbers.")
     except:
         print "Something unknown happened with the list."
-    return float(total)/length
-
-def median(vals):
-    """Computes the median from a list of values."""
-    pass
+    return total/length
 
 def mode(vals):
     """Computes the mode from a list of values."""
