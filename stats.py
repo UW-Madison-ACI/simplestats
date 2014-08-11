@@ -1,7 +1,7 @@
 def mean(vals):
     """Computes the mean from a list of values."""
     try:
-        total = float(sum(vals))
+        total = sum(vals)
         length = len(vals)
     except TypeError:
         raise TypeError("The list was not numbers.")
