@@ -1,13 +1,13 @@
 def mean(vals):
     """Computes the mean from a list of values."""
     try:
-        total = float(sum(vals))
+        total = sum(vals)
         length = len(vals)
     except TypeError:
         raise TypeError("The list was not numbers.")
     except:
         print "Something unknown happened with the list."
-    return float(total)/length
+    return total/length
 
 def mode(vals):
     """Computes the mode from a list of values."""
