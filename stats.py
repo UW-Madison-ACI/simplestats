@@ -9,6 +9,16 @@ def mean(vals):
         print "Something unknown happened with the list."
     return total/length
 
+def median(vals):
+   """This implements the median function"""
+    vals.sort()
+    length = len(vals)
+    index = length / 2
+    if length % 2 == 0: # length is even
+       return mean([vals[index], vals[index - 1]])
+    else: # legth is odd
+       return vals[index]
+
 def mode(vals):
     """Computes the mode from a list of values."""
     pass
