@@ -1,5 +1,6 @@
 def mean(vals):
-    """Computes the mean from a list of values."""
+    """Computes the mean from a list of values. 
+       Let's get this right!"""
     try:
         total = float(sum(vals))
         length = len(vals)
