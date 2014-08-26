@@ -10,6 +10,7 @@ def mean(vals):
     return total/length
 
 def median(vals):
+    """please implement this function"""
     pass
 
 def mode(vals):
