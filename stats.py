@@ -1,18 +1,13 @@
 def mean(vals):
-    """Computes the mean from a list of values. 
-       Let's get this right!"""
+    """Computes the mean from a list of values."""
     try:
-        total = float(sum(vals))
+        total = sum(vals)
         length = len(vals)
     except TypeError:
         raise TypeError("The list was not numbers.")
     except:
         print "Something unknown happened with the list."
     return total/length
-
-def median(vals):
-    """please implement this function"""
-    pass
 
 def mode(vals):
     """Computes the mode from a list of values."""
